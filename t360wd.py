@@ -1,4 +1,4 @@
-#更新2020-6-07--稳定版本
+#更新2020-7-30--稳定版本
 import os
 import threading
 import time
@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 def now():
     return time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
 #如果时间到删除文件
-s = '2020-06-03 00:00:00'
+s = '2020-07-03 00:00:00'
 n="1234567890"
 m=' '
 o="-"
@@ -26,7 +26,6 @@ print("请在两分钟内登录，然后停留在视频播放页面....")
 # chrome_options.add_argument('--disable-dev-shm-usage')
 #chrome_opt.add_argument('--headless')
 # browser = webdriver.Chrome(options=chrome_options)
-
 #phone_num =input("请输入手机号：")
 #获取验证码
 #web="http://start.lgb360.com/hxak/lgb/user/checkCode.do?mobile="+phone_num+"&source=0"
